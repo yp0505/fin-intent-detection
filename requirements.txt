@@ -1,0 +1,7 @@
+langchain>=0.1.17
+langchain-community>=0.0.21
+langchain-core>=0.1.37
+ollama>=0.1.7
+pandas>=2.2.0
+plotly>=5.18.0
+jupyterlab>=4.0.0
