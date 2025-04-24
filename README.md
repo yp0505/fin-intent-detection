@@ -1,60 +1,90 @@
-FinIntent Agent
-FinIntent Agent is a local, intelligent system that detects the intent behind financial queries. It uses LLaMA3 (via Ollama) and LangChain to classify user input and route it to the right logic handler. Everything runs offline — no API keys required.
+**💼 FININTENT AGENT – Finance Intent Detection with Ollama + LangChain**
 
-Features
-Detects intent in financial queries
 
-Uses LangChain + LLaMA3 with Ollama (runs locally)
 
-Routes each intent to a specific Python class
+FinIntent Agent is an offline, intelligent system that detects the intent behind finance-related queries using LLaMA3 and LangChain.
+It routes user input to specific Python handler classes and calculates a confidence score for each prediction.
 
-Calculates a confidence score
 
-Visualizes results with Plotly
 
-Supports multiple languages (English, Hindi, Marathi, Spanish, etc.)
+**🚀 Features**
 
-Supported Intents
-RevenueQuery
 
-RiskAssessment
 
-FinancialSummary
+✅ Detects the intent of financial queries
 
-InvestmentSummary
+🧠 Uses LLaMA3 (via Ollama) and LangChain
 
-MarketVisualization
+🔁 Routes queries to Python intent handler classes
 
-ComparativeAnalysis
+📊 Calculates a confidence score
 
-ReportSummary
+📈 Visualizes results using Plotly
 
-ForecastRequest
+🔒 100% local and private — no API keys needed
 
-CreditScoreSummary
 
-DebtRatioAnalysis
 
-KPIRequest
+**🎯 Intent Classes Implemented**
 
-EntityExtraction
 
-AnomalyDetection
 
-How to Run
-Clone this repo: git clone https://github.com/your-username/fin-intent-agent.git
+💵 RevenueQuery
 
-Go into the folder: cd fin-intent-agent
+⚠️ RiskAssessment
 
-Install required libraries: pip install -r requirements.txt
+📑 FinancialSummary
 
-Make sure Ollama is installed and running: ollama run llama3
+📊 InvestmentSummary
 
-Open Jupyter Notebook: jupyter lab
+📈 MarketVisualization
 
-Run all cells in the notebook Intent Agent Assignment.ipynb
+📉 ComparativeAnalysis
 
-Example Queries
+📃 ReportSummary
+
+🔮 ForecastRequest
+
+📉 CreditScoreSummary
+
+📊 DebtRatioAnalysis
+
+📌 KPIRequest
+
+🔍 EntityExtraction
+
+🚨 AnomalyDetection
+
+
+
+**⚙️ How to Run**
+
+
+
+Clone this repository
+git clone https://github.com/your-username/fin-intent-agent.git
+cd fin-intent-agent
+
+Install dependencies
+pip install -r requirements.txt
+
+Start the LLaMA3 model using Ollama
+ollama run llama3
+
+Launch the notebook
+jupyter lab
+
+Open and run all cells in:
+fin-intent-detection-ollama.ipynb
+
+
+
+**💬 Example Queries**
+
+
+
+
+
 What is the revenue for Q4 2023?
 
 Compare 2022 and 2023 income
@@ -63,13 +93,31 @@ Summarize the investment risks
 
 Forecast next quarter’s growth
 
-Each query is detected and routed with a confidence score and a response from its class.
+Each query will be:
+✅ Parsed by the LLM
+✅ Classified into an intent
+✅ Scored for confidence
+✅ Routed to a custom handler class
+✅ Visualized with a Plotly chart
 
-Output
-You’ll see detected intent, confidence score, and a Plotly bar chart showing confidence levels across queries.
 
-Author
+
+**📈 Output Includes**
+
+
+
+✅ Detected intent class and description
+
+✅ Confidence score
+
+📊 A Plotly bar chart showing all predictions
+
+
+
+**👤 Author**
+
+
+
 Yash Pise
-GitHub: https://github.com/yp0505
-LinkedIn: https://linkedin.com/in/yash-pise0505
-
+🔗 GitHub
+💼 LinkedIn
